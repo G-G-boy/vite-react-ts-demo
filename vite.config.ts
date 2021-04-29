@@ -1,9 +1,20 @@
-import * as reactPlugin from 'vite-plugin-react'
-import type { UserConfig } from 'vite'
+import { defineConfig } from 'vite';
+import reactRefresh from '@vitejs/plugin-react-refresh';
+import path from 'path';
 
-const config: UserConfig = {
-  jsx: 'react',
-  plugins: [reactPlugin]
-}
-
-export default config
+export default defineConfig(() => {
+    return {
+        resolve: {
+            alias: {
+                '@': path.resolve(__dirname, 'src'),
+            },
+        },
+        plugins: [reactRefresh()],
+        esbuild: {
+            jsxInject: `import React from 'react'`,
+        },
+        server: {
+            port: 4001,
+        },
+    };
+});

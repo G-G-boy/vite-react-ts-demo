@@ -1,18 +1,12 @@
-import React, { useState } from 'react'
-import './App.css'
+import type { FC } from 'react';
+import { Button } from 'zarm';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App: FC = () => {
+    return (
+        <div>
+            <Button theme="primary">aaaa</Button>
+        </div>
+    );
+};
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          <button onClick={() => setCount(count => count + 1)}>count is: {count}</button>
-        </p>
-      </header>
-    </div>
-  )
-}
-
-export default App
+export default App;
