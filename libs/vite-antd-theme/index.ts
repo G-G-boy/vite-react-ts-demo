@@ -1,6 +1,6 @@
-import type { Plugin, ResolvedConfig } from 'vite';
-import { existsSync, mkdirSync } from 'fs';
-import { join } from 'path';
+import type {Plugin, ResolvedConfig} from 'vite';
+import {existsSync, mkdirSync} from 'fs';
+import {join} from 'path';
 import rimraf from 'rimraf';
 import defaultTheme from './defaultTheme';
 import serveStatic from 'serve-static';
@@ -81,7 +81,7 @@ const ViteAntdTheme = (): Plugin => {
         },
         generateBundle() {
             console.log('build theme');
-            const { outDir } = config.build;
+            const {outDir} = config.build;
             const outputPath = join(process.cwd(), outDir);
             const themePath = winPath(join(outputPath, 'theme'));
             try {

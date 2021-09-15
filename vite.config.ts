@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite';
+import {defineConfig} from 'vite';
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import path from 'path';
 import vitePluginImp from 'vite-plugin-imp';
-import ViteAntdTheme from './libs/vite-antd-theme';
+import viteAntdTheme from 'vite-plugin-antd-static-theme';
 
 export default defineConfig(() => {
     return {
@@ -37,7 +37,7 @@ export default defineConfig(() => {
                     },
                 ],
             }),
-            ViteAntdTheme(),
+            viteAntdTheme(),
         ],
         css: {
             preprocessorOptions: {

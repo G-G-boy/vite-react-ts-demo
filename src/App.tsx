@@ -1,5 +1,5 @@
-import type { FC } from 'react';
-import { Button } from 'antd';
+import type {FC} from 'react';
+import {Button} from 'antd';
 
 const handleClick = () => {
     const body = document.getElementsByTagName('body')[0];
