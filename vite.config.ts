@@ -3,6 +3,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 import path from 'path';
 import vitePluginImp from 'vite-plugin-imp';
 import viteAntdTheme from 'vite-plugin-antd-static-theme';
+import WindiCSS from 'vite-plugin-windicss';
 
 export default defineConfig(() => {
     return {
@@ -38,6 +39,7 @@ export default defineConfig(() => {
                 ],
             }),
             viteAntdTheme(),
+            WindiCSS(),
         ],
         css: {
             preprocessorOptions: {

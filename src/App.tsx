@@ -15,7 +15,7 @@ const handleClick = () => {
 const App: FC = () => {
     console.log(window.vite_plugin_ant_themeVar);
     return (
-        <div>
+        <div className="w-full h-[600px] bg-gray-200 flex justify-center items-center">
             <Button type="primary" onClick={handleClick}>
                 green
             </Button>
