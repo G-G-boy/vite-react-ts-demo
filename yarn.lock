@@ -7892,10 +7892,10 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vite-plugin-antd-static-theme@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/vite-plugin-antd-static-theme/-/vite-plugin-antd-static-theme-0.0.1.tgz#05ba3ffa73dd9d0865783c43aea92d84e6493153"
-  integrity sha512-VR7idIB1cnvRX0xPijP4AQi/Ham9Ximgp7Cq6T1PbGB3QvflbtXZx+jWfnevQPiKeIxXmesmLt2xGAV1yMmjKg==
+vite-plugin-antd-static-theme@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/vite-plugin-antd-static-theme/-/vite-plugin-antd-static-theme-0.0.2.tgz#c3e2d3ffce48c775c3024bbdf555cc6f6644594d"
+  integrity sha512-cRPUMAQyjbZek82pjCkfs8cMcfq4/8QxeKqqTnGU0D/K0CZyuxK0VhxUlJKkpdm6EtvWISXcUK+Jxh3DhJGPUA==
   dependencies:
     antd-pro-merge-less "^3.0.11"
     rimraf "^3.0.2"
