@@ -1502,7 +1502,7 @@
   resolved "https://registry.npmjs.org/@types/estree/-/estree-0.0.50.tgz#1e0caa9364d3fccd2931c3ed96fdbeaa5d4cca83"
   integrity sha512-C6N5s2ZFtuZRj54k2/zyRhNDjJwwcViAM3Nbm8zjBpbqAdZ00mr0CFxvSKeO8Y/e03WVFLpQMdHYVfUd6SB+Hw==
 
-"@types/glob@*", "@types/glob@^7.1.1":
+"@types/glob@^7.1.1":
   version "7.1.4"
   resolved "https://registry.nlark.com/@types/glob/download/@types/glob-7.1.4.tgz#ea59e21d2ee5c517914cb4bc8e4153b99e566672"
   integrity sha1-6lniHS7lxReRTLS8jkFTuZ5WZnI=
@@ -1544,11 +1544,6 @@
   integrity sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==
   dependencies:
     "@types/unist" "*"
-
-"@types/mime@^1":
-  version "1.3.2"
-  resolved "https://registry.nlark.com/@types/mime/download/@types/mime-1.3.2.tgz?cache=0&sync_timestamp=1629708374856&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fmime%2Fdownload%2F%40types%2Fmime-1.3.2.tgz#93e25bf9ee75fe0fd80b594bc4feb0e862111b5a"
-  integrity sha1-k+Jb+e51/g/YC1lLxP6w6GIRG1o=
 
 "@types/minimatch@*":
   version "3.0.4"
@@ -1628,26 +1623,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/rimraf@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.nlark.com/@types/rimraf/download/@types/rimraf-3.0.2.tgz?cache=0&sync_timestamp=1629709910910&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Frimraf%2Fdownload%2F%40types%2Frimraf-3.0.2.tgz#a63d175b331748e5220ad48c901d7bbf1f44eef8"
-  integrity sha1-pj0XWzMXSOUiCtSMkB17vx9E7vg=
-  dependencies:
-    "@types/glob" "*"
-    "@types/node" "*"
-
 "@types/scheduler@*":
   version "0.16.1"
   resolved "https://registry.npm.taobao.org/@types/scheduler/download/@types/scheduler-0.16.1.tgz?cache=0&sync_timestamp=1613384488348&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fscheduler%2Fdownload%2F%40types%2Fscheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
   integrity sha1-GIRSBehv8AOFF6q3oYpiprn3EnU=
-
-"@types/serve-static@^1.13.10":
-  version "1.13.10"
-  resolved "https://registry.nlark.com/@types/serve-static/download/@types/serve-static-1.13.10.tgz#f5e0ce8797d2d7cc5ebeda48a52c96c4fa47a8d9"
-  integrity sha1-9eDOh5fS18xevtpIpSyWxPpHqNk=
-  dependencies:
-    "@types/mime" "^1"
-    "@types/node" "*"
 
 "@types/throttle-debounce@^2.1.0":
   version "2.1.0"
