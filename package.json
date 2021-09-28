@@ -22,7 +22,7 @@
     "zarm": "^2.9.8"
   },
   "devDependencies": {
-    "@gavin-fabric/eslint-config-react": "^0.2.1",
+    "@gavin-fabric/eslint-config-react": "^0.2.2",
     "@gavin-fabric/prettier": "^0.2.1",
     "@gavin-fabric/stylelint": "^0.1.1",
     "@types/babel__core": "^7.1.16",
