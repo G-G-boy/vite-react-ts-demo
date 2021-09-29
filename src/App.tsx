@@ -2,22 +2,14 @@ import type {FC} from 'react';
 import {Button} from 'antd';
 
 const handleClick = () => {
-    const body = document.getElementsByTagName('body')[0];
-    const styleLink = document.createElement('link');
-    styleLink.type = 'text/css';
-    styleLink.rel = 'stylesheet';
-    styleLink.id = 'theme-style';
-    styleLink.href = '/theme/green.css';
-    body.className = 'body-wrap-green';
-    document.body.append(styleLink);
+    console.log('click');
 };
 
 const App: FC = () => {
-    console.log(window.vite_plugin_ant_themeVar);
     return (
-        <div className="w-full h-[600px] bg-gray-200 flex justify-center items-center">
+        <div className="w-full h-full bg-gray-200 flex justify-center items-center">
             <Button type="primary" onClick={handleClick}>
-                green
+                click
             </Button>
         </div>
     );
