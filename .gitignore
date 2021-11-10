@@ -5,3 +5,4 @@ dist
 .idea
 theme
 yarn.lock
+.vscode

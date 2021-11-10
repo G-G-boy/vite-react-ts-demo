@@ -3,6 +3,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 import path from 'path';
 import vitePluginImp from 'vite-plugin-imp';
 import WindiCSS from 'vite-plugin-windicss';
+import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
     return {
@@ -38,6 +39,7 @@ export default defineConfig(() => {
                 ],
             }),
             WindiCSS(),
+            VitePWA({}), // only https
         ],
         css: {
             preprocessorOptions: {
