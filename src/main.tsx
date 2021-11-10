@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom';
-import App from './App';
+import Basic from '@/router/Basic';
+
 import './index.less';
 import 'antd/es';
 // eslint-disable-next-line import/no-unresolved
@@ -7,4 +8,6 @@ import 'virtual:windi.css';
 // eslint-disable-next-line import/no-unresolved
 import 'virtual:windi-devtools';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const app = <Basic />;
+
+ReactDOM.render(app, document.getElementById('root'));
