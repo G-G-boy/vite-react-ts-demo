@@ -25,19 +25,19 @@ export default defineConfig(() => {
                     },
                 ],
             }),
-            vitePluginImp({
-                libList: [
-                    {
-                        libName: 'antd',
-                        style: (name) => {
-                            if (name === 'row' || name === 'col') {
-                                return `antd/es/grid/style/index.css`;
-                            }
-                            return `antd/es/${name}/style/index.css`;
-                        },
-                    },
-                ],
-            }),
+            // vitePluginImp({
+            //     libList: [
+            //         {
+            //             libName: 'antd',
+            //             style: (name) => {
+            //                 if (name === 'row' || name === 'col') {
+            //                     return `antd/es/grid/style/index.css`;
+            //                 }
+            //                 return `antd/es/${name}/style/index.css`;
+            //             },
+            //         },
+            //     ],
+            // }),
             WindiCSS(),
             VitePWA({}), // only https
         ],
